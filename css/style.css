@@ -6,11 +6,21 @@ body{
 	font-size:150%;
 }
 
-
 /*Make the h1 heading bigger with a bold font*/
 h1{
 	font-size: 2em; 
 	font-weight: bold;
+}
+
+
+.active{
+	background: white;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.active a{
+	text-decoration: none;;
 }
 
 /*Style the images*/
@@ -58,5 +68,3 @@ nav li{
 /*Added this so the links stay the same color*/
 a:visited{color:#0000FF}
 
-
-}
